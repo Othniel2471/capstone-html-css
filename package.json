@@ -1,0 +1,23 @@
+{
+  "name": "capstone-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Othniel2471/capstone-html-css.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Othniel2471/capstone-html-css/issues"
+  },
+  "homepage": "https://github.com/Othniel2471/capstone-html-css#readme",
+  "devDependencies": {
+    "hint": "^7.1.8"
+  }
+}
