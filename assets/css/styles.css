@@ -1,3 +1,105 @@
-h1 {
-  color: pink;
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+@import url(./toggle.css);
+
+:root {
+  --primary-color: #ec5242;
+  --secondary-color: #272a31;
+  --light-color: #d3d3d3;
+  --font-family: 'Lato', sans-serif;
 }
+
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-family);
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+#navigation {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  padding: 0.25rem;
+}
+
+.logo {
+  height: 22px;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.logo .half {
+  color: var(--primary-color);
+}
+
+.mobile-menu {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: var(--secondary-color);
+  opacity: 0.9;
+  backdrop-filter: blur(7px);
+  transition: all 1s ease;
+  display: none;
+}
+
+.active.mobile-menu {
+  display: block;
+}
+
+.nav-list {
+  margin-top: 10rem;
+  margin-left: 28px;
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-list .nav-content {
+  padding-top: 1px;
+}
+
+.nav-list .nav-content a {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: var(--light-color);
+  font-size: 20px;
+  line-height: 44px;
+}
+
+.nav-list .nav-content a:hover,
+.nav-list .nav-content a:focus {
+  color: var(--primary-color);
+}
+
+.nav-list .nav-content .tickets {
+  padding: 16px;
+  color: var(--primary-color);
+  width: 113px;
+  height: 51px;
+  border: 2px solid var(--primary-color);
+  border-radius: 8px;
+}
+
+.nav-list .nav-content .tickets:hover,
+.nav-list .nav-content .tickets:focus {
+  color: var(--light-color);
+  background-color: var(--primary-color);
+}
+
+
