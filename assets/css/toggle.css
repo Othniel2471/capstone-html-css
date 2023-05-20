@@ -2,7 +2,8 @@
   position: relative;
   height: 10px;
   margin-top: 28px;
-  padding: 0 23px;
+
+  /* padding: 0 23px; */
   cursor: pointer;
   z-index: 5;
 }
