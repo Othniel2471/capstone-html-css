@@ -82,7 +82,7 @@ li {
 .nav-list .nav-content a {
   text-decoration: none;
   text-transform: capitalize;
-  color: var(--secondary-color);
+  color: var(--light-color);
   font-size: 20px;
   line-height: 44px;
 }
@@ -176,4 +176,83 @@ li {
 
 #main-program {
   background-image: url(../images/pictures/gray-texture.png);
+  margin-top: -1.2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1em 1em;
+}
+
+#main-program h2 {
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 29px;
+  color: var(--light-color);
+  text-transform: capitalize;
+}
+
+hr {
+  width: 70px;
+  border: 0.8px solid #ec5242;
+  margin: 0 auto;
+}
+
+.program-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.programs {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 15px;
+  background-color: #393c43b3;
+  padding: 10px;
+  gap: 10px;
+}
+
+.programs img {
+  height: 100px;
+  width: 100px;
+}
+
+.program-title {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: var(--primary-color);  
+  text-transform: capitalize;
+}
+
+.program-dets {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: var(--light-color);
+  text-transform: capitalize
+}
+
+.btn {
+  background-color: var(--primary-color);
+  color: var(--light-color);
+  text-transform: capitalize;
+  margin-top: 1em;
+  padding: 1.5rem 3rem;
+  cursor: pointer;
+}
+
+.btn:hover,.btn:focus {
+  background-color: var(--light-color);
+  color: var(--primary-color);
+}
+
+#performing-artist {
+  padding: 1em 1em;
+}
+
+#performing-artist  h2 {
+  display: flex;
+  justify-content: center;
 }
