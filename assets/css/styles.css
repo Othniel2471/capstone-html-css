@@ -222,7 +222,7 @@ hr {
   font-weight: 600;
   font-size: 18px;
   line-height: 22px;
-  color: var(--primary-color);  
+  color: var(--primary-color);
   text-transform: capitalize;
 }
 
@@ -231,7 +231,7 @@ hr {
   font-size: 14px;
   line-height: 22px;
   color: var(--light-color);
-  text-transform: capitalize
+  text-transform: capitalize;
 }
 
 .btn {
@@ -243,7 +243,8 @@ hr {
   cursor: pointer;
 }
 
-.btn:hover,.btn:focus {
+.btn:hover,
+.btn:focus {
   background-color: var(--light-color);
   color: var(--primary-color);
 }
@@ -252,7 +253,58 @@ hr {
   padding: 1em 1em;
 }
 
-#performing-artist  h2 {
+#performing-artist h2 {
   display: flex;
   justify-content: center;
+}
+
+.artist-container {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.artists {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+}
+
+.artist-img img:nth-child(1) {
+  width: 80px;
+  height: 80px;
+}
+
+.artist-img img:nth-child(2) {
+  width: 120px;
+  height: 120px;
+  position: relative;
+  bottom: 69px;
+  left: 9px;
+}
+
+/* .artist-info {
+
+} */
+
+.artist-info .artist-name {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.artist-info .performance-time {
+  font-style: italic;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  color: var(--primary-color);
+}
+
+.artist-info .artist-desc {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
 }
