@@ -183,11 +183,13 @@ li {
   padding: 1em 1em;
 }
 
-#main-program h2 {
+h2 {
   font-weight: 800;
   font-size: 24px;
   line-height: 29px;
   color: var(--light-color);
+  display: flex;
+  justify-content: center;
   text-transform: capitalize;
 }
 
@@ -256,6 +258,7 @@ hr {
 #performing-artist h2 {
   display: flex;
   justify-content: center;
+  color: var(--secondary-color);
 }
 
 .artist-container {
@@ -307,4 +310,38 @@ hr {
   font-weight: 400;
   font-size: 14px;
   line-height: 17px;
+}
+
+#partners {
+  background-color: var(--secondary-color);
+  padding: 1rem 1rem;
+}
+
+.partners-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  padding: 1rem;
+}
+
+footer {
+  padding: 1em 1em;
+  display: flex;
+  justify-content: space-between;
+
+  /* flex-direction: column; */
+}
+
+footer .logo {
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 29px;
+
+  /* margin-bottom: -0.2rem; */
+}
+
+footer p {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
 }
