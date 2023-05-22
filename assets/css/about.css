@@ -1,0 +1,83 @@
+@import url(./styles.css);
+@import url(./toggle.css);
+
+.hero-details {
+  background-color: var(--light-color);
+}
+
+.hero-end {
+  margin-left: 0;
+  text-align: center;
+  display: block;
+}
+
+#main-program {
+  background: #fff;
+}
+
+.con p {
+  font-size: 1rem;
+  margin-top: -1rem;
+  color: var(--light-color);
+  text-transform: capitalize;
+}
+
+#main-program p {
+  text-align: center;
+}
+
+.btn {
+  background-color: #fff;
+  border: 1px solid var(--primary-color);
+  border-radius: 10px;
+}
+
+#previous {
+  padding: 1em 1em;
+}
+
+.gallery-img {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  margin-top: 1em;
+}
+
+.con {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+}
+
+.con h2 {
+  font-size: 3rem;
+}
+
+.concert1 {
+  background-image: linear-gradient(#f5331dbf, #f2331ea2), url('../images/pictures/concert1.jpg');
+  background-size: cover;
+  height: 300px;
+  width: 100%;
+  cursor: pointer;
+  transition: eall 0.5s;
+}
+
+.concert2 {
+  background-image: linear-gradient(#f5331dbf, #f2331ea2), url('../images/pictures/concert2.jpg');
+  background-size: cover;
+  height: 300px;
+  width: 100%;
+  cursor: pointer;
+  transition: ease-in-out 0.5s;
+}
+
+.concert1:hover {
+  background-image: linear-gradient(#f5331d00, #f2331e00), url('../images/pictures/concert1.jpg');
+}
+
+.concert2:hover {
+  background-image: linear-gradient(#f5331d00, #f2331e00), url('../images/pictures/concert2.jpg');
+}

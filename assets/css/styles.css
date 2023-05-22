@@ -327,21 +327,20 @@ hr {
 footer {
   padding: 1em 1em;
   display: flex;
-  justify-content: space-between;
-
-  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
 }
 
 footer .logo {
   font-weight: 900;
   font-size: 24px;
   line-height: 29px;
-
-  /* margin-bottom: -0.2rem; */
 }
 
 footer p {
   font-weight: 400;
   font-size: 12px;
   line-height: 150%;
+  transform: translateY(6px);
 }
