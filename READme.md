@@ -51,7 +51,7 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-- [Live Demo Link](https://othniel2471.github.io/portfolio-mv/)
+- [Live Demo Link](https://othniel2471.github.io/capstone-html-css/index.html)
 
 <!-- GETTING STARTED -->
 
@@ -82,7 +82,7 @@ Example commands:
 
 ```sh
   cd my-folder
-  git clone https://github.com/Othniel2471/new-portfolio.git
+  git clone https://github.com/Othniel2471/capstone-html-css.git
 ```
 --->
 
@@ -191,7 +191,7 @@ If you like this project, kindly leave a comment below and share it with someone
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 
-I would like to thank Microverse for helping out with this project
+- Original design idea by [Cindy Chin](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015) in Behance.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
