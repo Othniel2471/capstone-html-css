@@ -213,6 +213,13 @@ hr {
   gap: 10px;
 }
 
+.programs:hover {
+  border: 1px solid var(--light-color);
+  cursor: pointer;
+  transform: translateY(1rem);
+  transition: transform 200ms ease-in-out;
+}
+
 .programs i {
   font-size: 3rem;
   color: var(--light-color);
