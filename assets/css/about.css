@@ -2,13 +2,22 @@
 @import url(./toggle.css);
 
 .hero-details {
-  background-color: var(--light-color);
+  background-color: #fff;
+  border: 1px solid var(--light-color);
 }
 
 .hero-end {
   margin-left: 0;
   text-align: center;
   display: block;
+}
+
+.hero-end :nth-child(1) {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23px;
+  text-align: center;
+  color: black;
 }
 
 #main-program {
@@ -80,4 +89,99 @@
 
 .concert2:hover {
   background-image: linear-gradient(#f5331d00, #f2331e00), url('../images/pictures/concert2.jpg');
+}
+
+/* desktop view */
+@media only screen and (min-width: 768px) {
+  #hero-section {
+    padding: 1em 1em;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .hero-container h1 {
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 77px;
+    text-align: center;
+    width: 100%;
+  }
+
+  .headliner-start {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    width: 100%;
+    transform: translateY(0);
+  }
+
+  .hero-details {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  .hero-end :nth-child(1) {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 2rem;
+    color: black;
+  }
+
+  .hero-end :last-child {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    text-decoration: underline;
+  }
+
+  h2 {
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 38px;
+  }
+
+  #main-program :nth-child(3) {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    width: 30%;
+    margin: 0 auto;
+    padding-top: 1rem;
+  }
+
+  .gallery-img {
+    flex-direction: row;
+  }
+
+  .partners-container {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 5px;
+  }
+
+  .partners-container img:hover {
+    transform: translateY(10px);
+    transition: all 0.5s;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  #hero-section {
+    padding: 1em 15em;
+  }
+
+  .partners-container {
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+    gap: 5px;
+  }
 }
