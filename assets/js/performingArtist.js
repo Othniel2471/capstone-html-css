@@ -1,3 +1,4 @@
+
 const artist = [
   {
     dotImg: 'assets/images/pictures/dots.png',
@@ -68,3 +69,4 @@ const displayArtist = (artists) => {
 window.addEventListener('DOMContentLoaded', () => {
   displayArtist(artist);
 });
+
