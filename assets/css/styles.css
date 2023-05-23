@@ -38,11 +38,16 @@ li {
   background-image: url(../images/pictures/main_big.png);
 }
 
+.top-nav {
+  display: none;
+}
+
 .logo {
   height: 22px;
   font-weight: 900;
-  font-size: 18px;
+  font-size: 24px;
   line-height: 22px;
+  color: black;
 }
 
 .logo .half {
@@ -292,10 +297,6 @@ hr {
   left: 9px;
 }
 
-/* .artist-info {
-
-} */
-
 .artist-info .artist-name {
   font-weight: 600;
   font-size: 18px;
@@ -357,11 +358,38 @@ footer p {
     flex-direction: row;
     background: #fff;
     box-shadow: 0 1px 10px -5px grey;
-
-    /* position: fixed; */
     height: 72px;
     z-index: 2;
     padding: 1rem 9rem;
+  }
+
+  .top-nav {
+    display: block;
+  }
+
+  .top-nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: var(--secondary-color);
+    padding: 5px 190px;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+  .top-nav a {
+    color: var(--light-color);
+  }
+
+  .top-nav li {
+    margin-right: 20px;
+    color: var(--light-color);
+    cursor: pointer;
+  }
+
+  .top-nav a:hover,
+  .top-nav li:hover {
+    color: #fff;
   }
 
   nav {
