@@ -39,6 +39,7 @@
   background-color: #fff;
   border: 1px solid var(--primary-color);
   border-radius: 10px;
+  padding: 1rem;
 }
 
 #previous {
@@ -89,6 +90,14 @@
 
 .concert2:hover {
   background-image: linear-gradient(#f5331d00, #f2331e00), url('../images/pictures/concert2.jpg');
+}
+
+footer {
+  background-color: var(--secondary-color);
+}
+
+footer p {
+  color: var(--light-color);
 }
 
 /* desktop view */
@@ -143,6 +152,7 @@
     width: 50%;
     margin: 0 auto;
     text-decoration: underline;
+    cursor: pointer;
   }
 
   h2 {
