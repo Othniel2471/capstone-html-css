@@ -289,7 +289,6 @@ hr {
   left: 9px;
 }
 
-
 .artist-info .artist-name {
   font-weight: 600;
   font-size: 18px;
@@ -374,19 +373,16 @@ footer p {
     color: var(--light-color);
   }
 
-  .top-nav a:hover,
-  .top-nav li:hover
-  {
-    color: #fff;
-  }
-
   .top-nav li {
     margin-right: 20px;
     color: var(--light-color);
     cursor: pointer;
   }
 
-  
+  .top-nav a:hover,
+  .top-nav li:hover {
+    color: #fff;
+  }
 
   nav {
     display: flex;
