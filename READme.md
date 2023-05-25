@@ -44,7 +44,7 @@
 
 ### Key Features <a name="key-features"></a>
 -displays artist dynamically from javascript.
--it has and about and home page.
+-it has an about and home page.
 -it's a responsive site .
 
 - **[Demo on what is linters and how it works]**
@@ -150,11 +150,6 @@ If you think that change is necessary - open a Pull Request in this repository a
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-##  Loom-Walkthrough <a name="loom-walkthrough"></a>
-
-- Loom walkthrough: (https://www.loom.com/share/5d3467a6b52549a5917f7f6291f29aba)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 👥 Authors <a name="authors"></a>
 
@@ -166,14 +161,6 @@ If you think that change is necessary - open a Pull Request in this repository a
 - LinkedIn: (https://www.linkedin.com/in/othniel-omaidu-3350a9164)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## 🔭 Future Features <a name="future-features"></a>
-
-- [ ] **[hamburger-menu]**
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 ## 🤝 Contributing <a name="contributing"></a>
